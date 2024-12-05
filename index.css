@@ -112,3 +112,10 @@ h1 {
     text-align: center;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 1024px){
+    .oldal1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
