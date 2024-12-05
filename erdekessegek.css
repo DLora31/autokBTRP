@@ -1,0 +1,56 @@
+:root {
+    --alapszin: rgb(0, 140, 100);
+    --tablazatszin: rgb(228, 228, 228);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: var(--alapszin);
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+
+.header {
+    background-color: var(--alapszin);
+    padding: 1rem;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 1rem;
+}
+
+.oldal2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+ol li {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+.kepek img {
+    display: grid;
+    border: 1px solid var(--tablazatszin);
+    border-radius: 8px;
+    height: 150px;
+    width: 300px;
+    margin-left: 2rem;
+    padding: 5px;
+}
+
+.footer {
+    color: var(--alapszin);
+    text-align: center;
+    margin-bottom: 1rem;
+}
